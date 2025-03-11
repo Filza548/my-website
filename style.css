@@ -1,0 +1,1042 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hellow{
+  
+    /* width: 300px; Card ki width */
+    /* height: 200px; Card ki height */
+    /* background-color: #0e3b49; Card ka background color */
+    border-radius: 10px; /* Card ke corners ko round karna */
+    border: 2px solid #a259ff; /* Border ko neon purple karna */
+    box-shadow: 
+        0 0 10px #a259ff, /* Purple neon glow */
+        0 0 20px #a259ff, /* Purple neon glow */
+        0 0 40px #a259ff, /* Purple neon glow */
+        0 0 80px #a259ff; /* Purple neon glow */
+    outline: 2px solid #a259ff; /* Outline for extra glow */
+    outline-offset: 5px; /* Outline aur border ke beech ka space */
+}
+
+
+.hellow-1{
+  
+  /* width: 300px; Card ki width */
+  /* height: 200px; Card ki height */
+  /* background-color: #0e3b49; Card ka background color */
+  border-radius: 10px; /* Card ke corners ko round karna */
+  border: 2px solid rgb(190, 190, 191); /* Border ko neon purple karna */
+  box-shadow: 
+      0 0 10px rgb(190, 190, 191), /* Purple neon glow */
+      0 0 20px rgb(190, 190, 191), /* Purple neon glow */
+      0 0 40px rgb(190, 190, 191), /* Purple neon glow */
+      0 0 80px rgb(190, 190, 191); /* Purple neon glow */
+  outline: 2px solid rgb(190, 190, 191); /* Outline for extra glow */
+  outline-offset: 5px; /* Outline aur border ke beech ka space */
+}
+
+
+.hellow-2{
+  
+  /* width: 300px; Card ki width */
+  /* height: 200px; Card ki height */
+  /* background-color: #0e3b49; Card ka background color */
+  border-radius: 10px; /* Card ke corners ko round karna */
+  border: 2px solid rgb(161, 88, 88); /* Border ko neon purple karna */
+  box-shadow: 
+      0 0 10px rgb(161, 88, 88), /* Purple neon glow */
+      0 0 10px rgb(161, 88, 88), /* Purple neon glow */
+      0 0 40px rgb(161, 88, 88), /* Purple neon glow */
+      0 0 10px rgb(161, 88, 88); /* Purple neon glow */
+  outline: 2px solid rgb(161, 88, 88); /* Outline for extra glow */
+  outline-offset: 3px; /* Outline aur border ke beech ka space */
+}
+
+
+:root {
+  --mypurple: #a259ff;
+  --myblack: #3b3b3b;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.full-body-color {
+  background-color: #2b2b2b;
+}
+
+.container {
+  /* border: 2px solid white; */
+}
+
+/* navigation-bar */
+
+.row {
+
+  /* border: 3px solid red; */
+
+}
+
+.col-sm-6 {
+  /* border: 3px solid purple; */
+}
+
+.col-sm-6 h4 {
+  color: white;
+  padding-left: 10px;
+}
+
+.col-sm-6 img {
+  width: 35px;
+  height: 30px;
+
+}
+
+.col-sm {
+  /* border: 3px solid yellowgreen; */
+}
+
+.col-sm h6 {
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.col-sm p {
+  color: white;
+  font-size: .9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.col-sm button {
+  background-color: var(--mypurple);
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+/* navigation-bar is completed*/
+
+/* <!-- header-section --> */
+
+.header-box-1 {
+  /* border: 2px solid brown; */
+}
+
+.header-box-2 {
+  /* border: 2px solid rgb(42, 165, 89); */
+}
+
+.header-box-1 h1 {
+  color: #fff;
+}
+
+.header-box-1 p {
+  color: #fff;
+}
+
+.my-btn {
+  background-color: #a259ff;
+  width: 130px;
+  height: 44px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image {
+  width: 400px;
+  height: 60px;
+  /* background-color: #a259ff; */
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-2 {
+  width: 300px;
+  height: 300px;
+  /* background-color: #a259ff; */
+}
+
+.image-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-3 {
+  width: 300px;
+  height: 300px;
+  /* background-color: #a259ff; */
+}
+
+.image-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* <!-- header-section is completed --> */
+
+/* <!-- first-card-section heading is started  --> */
+
+.cards-one-heading h3 {
+  color: white;
+}
+
+
+.cards-one-heading p {
+  color: white;
+}
+
+/* <!-- first-card-section heading is completed  --> */
+
+/* <!-- cards images section is started  --> */
+.card-color {
+  background-color: var(--myblack);
+  width: 150px;
+  height: 400px;
+  /* background-color: yellowgreen; */
+}
+
+.card-color img {
+  width: 100%;
+  height: 100%;
+}
+
+/* <!-- cards images section completed --> */
+
+/* third-card-images */
+
+
+
+.card-forth-image-div {
+  width: 250px;
+  height: 250px;
+  background-color: yellowgreen;
+}
+
+.card-forth-image-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-button {
+  /* background-color: aqua; */
+
+}
+
+.button-imges {
+  width: 200px;
+  height: 60px;
+  /* background-color: yellowgreen; */
+}
+
+.button-imges img {
+  width: 100%;
+  height: 100%;
+}
+
+.f-image {
+  /* background-color: aqua; */
+}
+
+.s-image {
+  /* background-color: brown; */
+}
+
+.image-1-artist {
+  width: 200px;
+  height: 200px;
+  /* background-color: yellowgreen; */
+}
+
+.image-1-artist img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-2-artist-responsive {
+  width: 300px;
+  height: 30px;
+  /* background-color: rgb(227, 180, 180); */
+}
+
+.image-2-artist-responsive {
+  width: 100%;
+  height: 50%;
+}
+
+.image-3-artist {
+  width: 200px;
+  height: 200px;
+  /* background-color: yellowgreen; */
+}
+
+.image-3-artist img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-4-artist-responsive {
+  width: 300px;
+  height: 30px;
+  /* background-color: rgb(227, 180, 180); */
+}
+
+.image-4-artist-responsive {
+  width: 100%;
+  height: 50%;
+}
+
+.image-5-artist {
+  width: 200px;
+  height: 200px;
+  /* background-color: yellowgreen; */
+}
+
+.image-5-artist img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-6-artist-responsive {
+  width: 300px;
+  height: 30px;
+  /* background-color: rgb(227, 180, 180); */
+}
+
+.image-6-artist-responsive {
+  width: 100%;
+  height: 50%;
+}
+
+.image-7-artist {
+  width: 200px;
+  height: 200px;
+  /* background-color: yellowgreen; */
+}
+
+.image-7-artist img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-8-artist-responsive {
+  width: 300px;
+  height: 30px;
+  /* background-color: rgb(227, 180, 180); */
+}
+
+.image-8-artist-responsive {
+  width: 100%;
+  height: 50%;
+}
+
+.one {
+  /* background-color: yellowgreen; */
+}
+
+.two {
+  /* background-color: rgb(164, 184, 126); */
+}
+
+.three {
+  /* background-color: rgb(48, 54, 36); */
+}
+
+.four {
+  /* background-color: rgb(205, 138, 50); */
+}
+
+
+.top-creat-image-1 {
+
+  width: 200px;
+  height: 190px;
+  /* background-color: purple; */
+}
+
+.top-creat-image-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.blur-images {
+  width: 180px;
+  height: 190px;
+  background-color: purple;
+}
+
+.blur-images img {
+  width: 100%;
+  height: 100%;
+}
+
+.highlight-image {
+  width: 100%;
+  height: 100vh;
+  background-color: yellowgreen;
+}
+
+.highlight-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.info-image {
+  width: 250px;
+  height: 300px;
+  /* background-color: yellowgreen; */
+}
+
+.info-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.earth-col {
+  /* background-color: #3b3b3b; */
+  width: 400px;
+  height: 300px;
+}
+
+.earth-image {
+  /* background-color: aquamarine; */
+  width: 300px;
+  height: 200px;
+}
+
+.earth-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.sixth-col-2 {
+  /* background-color: #3b3b3b; */
+  width: 400px;
+  height: 300px;
+}
+
+
+
+.test-ss {
+  background-color: #3b3b3b;
+}
+
+.sixth-div h3 {
+  color: white;
+}
+
+
+.sixth-div p {
+  color: white;
+}
+
+.subscribe-div input {
+  width: 200px;
+  height: 40px;
+  /* background-color: yellowgreen; */
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.subscribe-div button {
+  width: 120px;
+  height: 40px;
+  /* background-color: rgb(240, 240, 240); */
+  border-radius: 10px;
+}
+
+.subscribe-div button img {
+  width: 100%;
+  height: 100%;
+}
+
+.row-color {
+  background-color: #3b3b3b;
+}
+
+.last-footer {
+  /* background-color: yellowgreen; */
+  background-color: #3b3b3b;
+
+}
+
+.last-foote-1 {
+  /* background-color: rgb(218, 254, 118); */
+  background-color: #3b3b3b;
+  
+}
+
+.last-footer-2 {
+  /* background-color: yellowgreen; */
+  background-color: #3b3b3b;
+
+}
+
+.last-footer-images {
+  /* background-color: red; */
+  width: 300px;
+  height: 150px;
+
+}
+
+.last-footer-images img {
+  width: 100%;
+  height: 100%;
+}
+
+.div-new{
+  width:80%;
+}
+
+.world{
+  background-color: #3b3b3b;
+
+}
+
+.fixed-nav-bar{
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  /* height: 70px; */
+  top: 0;
+  box-shadow: 0 0 2px #dbdada, 0 0 2px #d9d8d7, 0 0 2px #dedddf;
+  
+  background-color: #2b2b2b;
+  /* box-shadow: ; */
+}
+
+.text-1{
+  display: inline-block;
+  position: relative;
+  color: white;
+  cursor: pointer;
+}
+
+.text-1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Underline position */
+  width: 0;
+  height: 2px; /* Underline thickness */
+  box-shadow: 0 0 10px #cfcdcd, 0 0 10px #dfdfdf, 0 0 15px #dddddd;
+  background-color: #dedede; /* Underline color */
+  transition: width 0.3s ease-in-out;
+}
+
+.text-1:hover::after {
+  width: 100%; /* Full underline on hover */
+}
+
+.animt-5:hover{
+  animation:pulse;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+.animt-6:hover{
+  animation:pulse;
+  animation-duration: 2s;
+  cursor: pointer;
+}
+
+.yt:hover {
+  border-color:2px solid whitesmoke;
+}
+
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  .hellow{
+  
+    /* width: 300px; Card ki width */
+    /* height: 200px; Card ki height */
+    /* background-color: #0e3b49; Card ka background color */
+    border-radius: 10px; /* Card ke corners ko round karna */
+    border: 2px solid #a259ff; /* Border ko neon purple karna */
+    box-shadow: 
+        0 0 10px #a259ff, /* Purple neon glow */
+        0 0 20px #a259ff, /* Purple neon glow */
+        0 0 40px #a259ff, /* Purple neon glow */
+        0 0 80px #a259ff; /* Purple neon glow */
+    outline: 2px solid #a259ff; /* Outline for extra glow */
+    outline-offset: 5px; /* Outline aur border ke beech ka space */
+}
+
+  .col-sm p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .col-sm button {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-sm h6 {
+    display: none;
+  }
+
+  .col-sm p {
+    display: none;
+  }
+
+  .image-2 {
+    display: none;
+  }
+
+  .image {
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+
+  .responsive {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+  .button-imges {
+    display: none;
+  }
+
+  .button-img {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .image-2-artist-responsive {
+    width: 400px;
+    height: 30px;
+    /* background-color: rgb(227, 180, 180); */
+  }
+
+  .image-2-artist-responsive {
+    width: 100%;
+    height: 50%;
+  }
+
+  .image-2-artist-responsive {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .image-4-artist-responsive {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-creat-image-1 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-creat-responsive-image-2 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blur-images {
+    display: none;
+  }
+
+  .blur-responsive-images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .highlight-image {
+    display: none;
+  }
+
+  .nft-highlight-responsive-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .earth-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .earth-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .sixth-col-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .sixth-div {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+  }
+
+
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    /* background-color: lightgreen; */
+  }
+
+  /* .col-sm p{
+            color: white;
+          font-size: 1.1rem;
+          font-weight: 500;
+          } */
+
+  .col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }
+
+  .col-sm {
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .col-sm button {
+    display: none;
+
+  }
+
+  .col-sm h6 {
+    display: none;
+  }
+
+  .col-sm p {
+    display: none;
+  }
+
+  .image-2 {
+    display: none;
+  }
+
+  .header-box-1 {
+    width: 100%;
+  }
+
+  .image {
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+
+  .responsive {
+    display: none;
+  }
+
+
+
+  .responsive-none {
+    display: none;
+  }
+
+  .card-color {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-imges {
+    display: none;
+  }
+
+  .button-img {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .top-creat-image-1 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-creat-responsive-image-2 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blur-images {
+    display: none;
+  }
+
+  .blur-responsive-images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .highlight-image {
+    display: none;
+  }
+
+  .nft-highlight-responsive-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .earth-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .earth-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .sixth-col-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px;
+
+  }
+
+  .sixth-div {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+  }
+
+
+
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    /* background-color: lightcoral; */
+  }
+
+  .col-sm-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+  }
+
+  .col-sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .col-sm button {
+    display: none;
+
+  }
+
+  .image-3 {
+    display: none;
+  }
+
+  .image {
+    width: 300px;
+    height: 50px;
+    /* background-color: #a259ff; */
+  }
+
+
+
+  .button-img {
+    display: none;
+
+  }
+
+
+
+  .top-creat-responsive-image-1 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-2 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-3 {
+    display: none;
+  }
+
+  .blur-responsive-images {
+    display: none;
+  }
+
+  .nft-highlight-responsive-image {
+    display: none;
+  }
+
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    /* background-color: lightgoldenrodyellow; */
+  }
+
+  .col-sm-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+  }
+
+  .col-sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+  }
+
+  .image-3 {
+    display: none;
+  }
+
+
+
+  .button-img {
+    display: none;
+  }
+
+
+
+  .top-creat-responsive-image-1 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-2 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-3 {
+    display: none;
+  }
+
+  .blur-responsive-images {
+    display: none;
+  }
+
+  .nft-highlight-responsive-image {
+    display: none;
+  }
+}
+
+/* Extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    /* background-color: lightgray; */
+  }
+
+  .col-sm-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+  }
+
+  .col-sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+  }
+
+  .image-3 {
+    display: none;
+  }
+
+
+
+  .button-img {
+    display: none;
+  }
+
+
+
+
+  .top-creat-responsive-image-1 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-2 {
+    display: none;
+  }
+
+  .top-creat-responsive-image-3 {
+    display: none;
+  }
+
+  .blur-responsive-images {
+    display: none;
+  }
+
+  .nft-highlight-responsive-image {
+    display: none;
+  }
+
+
+
+}
